@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS `{{prefix}}fcos_brand`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_help`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_notice`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_order`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_order_add`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_order_delivery`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_order_delivery_real`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_order_discount`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_order_log`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_shop_order`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_fenxiao_order`;
+DROP TABLE IF EXISTS `{{prefix}}fcos_fenxiao_member`;
+DELETE FROM `{{prefix}}sys_dict` WHERE `key` = 'jhkd_is_send';
+DELETE FROM `{{prefix}}sys_dict` WHERE `key` = 'jhkd_is_pick';
+DELETE FROM `{{prefix}}sys_dict` WHERE `key` = 'jhkd_order_status';
+DELETE FROM `{{prefix}}sys_dict` WHERE `key` = 'jhkd_refund_status';
+DELETE FROM `{{prefix}}sys_dict` WHERE `key` = 'jhkd_is_refund';

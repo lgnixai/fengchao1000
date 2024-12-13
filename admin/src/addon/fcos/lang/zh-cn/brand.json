@@ -1,0 +1,17 @@
+{
+      "id":"主键",
+      "idPlaceholder":"请输入主键",
+      "siteId":"站点id",
+      "siteIdPlaceholder":"请输入站点id",
+      "expressNo":"快递编号",
+      "expressNoPlaceholder":"请输入类型",
+      "name":"名称",
+      "namePlaceholder":"请输入名称",
+      "logo": "LOGO",
+
+      "addBrand":"添加快递品牌",
+      "initBrand":"初始快递品牌",
+      "updateBrand":"编辑快递品牌",
+      "brandDeleteTips":"确定要删除该数据吗？",
+      "brandInitDataTips":"确定要初始化数据吗？"
+}

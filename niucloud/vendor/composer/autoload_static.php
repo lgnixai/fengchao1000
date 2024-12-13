@@ -182,6 +182,7 @@ class ComposerStaticInitf082efa3600aae2b847c3e8b4e641a4e
         array (
             'Firebase\\JWT\\' => 13,
             'Fastknife\\' => 10,
+            'Faker\\' => 6,
         ),
         'E' => 
         array (
@@ -189,6 +190,7 @@ class ComposerStaticInitf082efa3600aae2b847c3e8b4e641a4e
         ),
         'D' => 
         array (
+            'Defuse\\Crypto\\' => 14,
             'DI\\' => 3,
         ),
         'C' => 
@@ -532,9 +534,17 @@ class ComposerStaticInitf082efa3600aae2b847c3e8b4e641a4e
         array (
             0 => __DIR__ . '/..' . '/fastknife/ajcaptcha/src',
         ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
+        ),
         'EasyWeChat\\' => 
         array (
             0 => __DIR__ . '/..' . '/w7corp/easywechat/src',
+        ),
+        'Defuse\\Crypto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
         ),
         'DI\\' => 
         array (

@@ -1,0 +1,11 @@
+{
+  "title": "fcapi",
+  "desc": "",
+  "key": "fcapi",
+  "version": "1.0.0",
+  "author": "leven",
+  "type": "app",
+  "support_app": "",
+  "compile":[],
+  "support_version": "0.5.5"
+}

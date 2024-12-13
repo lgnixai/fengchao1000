@@ -1,0 +1,11 @@
+{
+  "title": "FC快递",
+  "desc": "全网快递一件比价",
+  "key": "fcos",
+  "version": "1.0.0",
+  "author": "leven",
+  "type": "app",
+  "support_app": "",
+  "support_version":"0.5.4",
+  "compile":[]
+}
